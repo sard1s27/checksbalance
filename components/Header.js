@@ -1,11 +1,11 @@
-export default () => `<header class="jumbotron jumbotron-fluid">
+export default () => `<header class="jumbotron jumbotron-fluid" style="background-color:#4863A0">
 <div class="container">
     <div class="row">
         <div class="col-6 col-sm-3 col-md-4 align-left">
-          <img src="Pictures/CBLogo.js" class="img-fluid" width="100" height="100" />
+          <img src="https://github.com/sard1s27/checksbalance/blob/master/Pictures/CBLogo.jpg?raw=true" class="img-fluid" width="100" height="100" />
         </div>
         <div class="col">
-            <h1>Checks and Balances</h1>
+            <h1 style="color:white">Checks and Balances</h1>
         </div>
     </div>
 </div>

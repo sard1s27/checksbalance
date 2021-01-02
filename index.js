@@ -12,12 +12,12 @@ function render(st) {
   `;
 }
 
-render(state.Home);
+render(state.Login);
 
 const router = new Navigo(window.location.origin);
 router
   .on({
-    "/": () => render(state.Home),
+    "/": () => render(state.Login),
     ":page": params => {
       let page = capitalize(params.page);
       render(state[page]);
