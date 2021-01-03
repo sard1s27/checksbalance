@@ -1,5 +1,5 @@
 export default () => `
-<form action="action_page.php" method="post">
+<form id="form" action="" method="s">
 
   <div class="container mx-auto">
     <label for="uname"><b>Username</b></label>
@@ -12,7 +12,7 @@ export default () => `
   </div>
 
   <div class="container mx-auto">
-    <button type="submit">Login</button>
+    <button type="submit"><a href="./Accounts" data-navigo >Login</a></button>
       <label>
         <input type="checkbox" checked="checked" name="remember"> Remember me
       </label>
@@ -20,7 +20,7 @@ export default () => `
 
   <div class="container">
     <button type="button" class="cancelbtn">Cancel</button>
-    <span class="psw">Forgot <a href="#">password?</a></span>
+    <span class="psw"><a href="#" data-navigo >Forgot password?</a> or new user signup <a href="./SignUp" data-navigo >here</a> </span>
   </div>
 </form>
 `;

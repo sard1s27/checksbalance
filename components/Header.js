@@ -1,4 +1,4 @@
-export default () => `<header class="jumbotron jumbotron-fluid" style="background-color:#4863A0">
+export default () => `<header class="header">
 <div class="container">
     <div class="row">
         <div class="col-6 col-sm-3 col-md-4 align-left">
